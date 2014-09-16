@@ -6,3 +6,5 @@ rm /tmp/tiny-ini-sample.$$.out
 
 # Running with no provided file should also succeed.
 printf "[database]\n" | ./tiny-ini - > /dev/null
+
+./tiny-ini --help | grep -q Usage
