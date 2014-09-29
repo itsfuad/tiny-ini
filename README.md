@@ -9,3 +9,7 @@ Small, dependency-light C99 / libc utility. Original implementation and history 
 `make && make test`
 
 Run `./tiny-ini examples/sample.txt`. Uses only the standard C library.
+
+## Maintenance
+
+Version 0.2 includes a small usability improvement and additional coverage for everyday workflows. No network dependencies are required.
